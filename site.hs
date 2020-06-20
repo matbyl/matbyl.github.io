@@ -8,7 +8,7 @@ import           Text.Pandoc (HTMLMathMethod (MathJax), writerHTMLMathMethod)
 --------------------------------------------------------------------------------
 main :: IO ()
 main =
-  hakyll $ do
+  hakyllWith (defaultConfiguration {deployCommand = "./deploy.sh"}) $ do
     match "images/*" $ do
       route idRoute
       compile copyFileCompiler
