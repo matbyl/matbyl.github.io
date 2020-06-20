@@ -25,8 +25,7 @@ rsync -a --filter='P _site/'      \
 cp -a _site/. .
 
 # Commit
-git add -A
-git commit -m "Publish."
+git commit -am "Publish."
 
 # Push
 git push origin master:master
