@@ -1,6 +1,5 @@
 .cabal-sandbox
 cabal.sandbox.config
-dist/
 _cache
 .vscode
 .stack-work
