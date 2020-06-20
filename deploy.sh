@@ -21,7 +21,6 @@ rsync -a --filter='P _site/'      \
          --delete-excluded        \
          _site/ .
          
-cp -a _site/. .
 
 
 # Commit
