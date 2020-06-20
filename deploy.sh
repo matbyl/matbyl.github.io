@@ -20,6 +20,9 @@ rsync -a --filter='P _site/'      \
          --filter='P .stack-work' \
          --delete-excluded        \
          _site/ .
+         
+cp -a _site/. .
+
 
 # Commit
 git add -A
