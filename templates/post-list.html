@@ -1,0 +1,13 @@
+<section class="columns">
+    <ul class="column is-6 is-offset-3">
+        $for(posts)$
+        <li class="container">
+            <h3 class="title"><a href="$url$">$title$</a></h3>
+            <div class="is-size-6">
+                $summary$
+            </div>
+            <div class="is-size-7">$date$</div>
+        </li>
+        $endfor$
+    </ul>
+</section>

@@ -1,0 +1,8 @@
+---
+title: Welcome
+author: Mathias Frithiofsson
+---
+
+Welcome to my blog whomever you might be. I created this blog to write down things I find interesting. I do this mainly as an excercise in explaining to myself to I may get a deeper understanding but also to improve my writing.
+
+```haskell main = putStrln "yo" ```
