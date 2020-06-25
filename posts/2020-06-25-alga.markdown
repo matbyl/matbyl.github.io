@@ -1,5 +1,5 @@
 ---
-title: (Alg)another way of defining a graph more functionally
+title: Plotting a type safe DAG
 author: Mathias Frithiofsson
 ---
 
