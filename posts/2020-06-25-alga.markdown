@@ -1,0 +1,14 @@
+---
+title: (Alg)another way of defining a graph more functionally
+author: Mathias Frithiofsson
+---
+
+I am currently exploring how graphs may be expressed using Haskell. 
+
+The goals is to define a Directed Acyclic Graph (DAG) or maybe a POSET.
+
+Stumbled upon Alga which is library that defines an algebra for expressing graphs.
+
+Acyclic AdjacencyMap.
+
+https://github.com/snowleopard/alga
